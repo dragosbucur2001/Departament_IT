@@ -1,0 +1,307 @@
+/* 
+    Schimbari de baza pentru intregul document
+*/
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 48px 0;
+}
+
+img {
+    width: 100%;
+    padding: 16px;
+    /* margin-top: 16px; */
+}
+
+label {
+    margin-top: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+    margin-top: 24px;
+}
+
+/* 
+    Styling pentru diferitele tipuri de butoane
+*/
+
+.btn {
+    height: 40px;
+    min-width: 108px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border: 0;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transition: all 0.2s;
+}
+
+.btn.btn-dark {
+    font-weight: 700;
+    background-color: #263238;
+    color: #92e3a9;
+    border: 0;
+}
+
+.btn.btn-dark:hover {
+    background-color: #090c0e;
+    color: #5cf086;
+}
+
+.btn.btn-light {
+    font-weight: 400;
+    background-color: white;
+    color: #263238;
+}
+
+.btn.btn-light:hover {
+    background-color: #090c0e;
+    color: #5cf086;
+    font-weight: 700;
+}
+
+.btn.btn-success {
+    font-weight: 700;
+    background-color: #92E3A9;
+    color: #263238;
+}
+
+.btn.btn-success:hover {
+    color:  #000000;
+    background-color: #92f5ae;
+}
+
+/* 
+    Schimbari pentru navbar
+*/
+
+.bg-light {
+    background-color: white !important;
+}
+
+li.nav-item {
+    margin: 16px;
+}
+
+.nav-link {
+    color: #263238 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+/* 
+    Schimbari pentru sectiunea 1
+*/
+
+#section1 .btn {
+    padding: 0 12px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+/* 
+    Schimbari pentru sectiunea "Cum functioneaza?"
+*/
+
+#section2 {
+    background-color: #92E3A9;
+    margin: 48px 0;
+    padding: 48px 0;
+}
+
+#section2 ol {
+    list-style: none;
+}
+
+#section2 li p {
+    padding-left: 65px;
+}
+
+#section2 span {
+    position: absolute;
+    font-size: 40px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #92E3A9;
+    background-color: #263238;
+    border-radius: 5px;
+}
+
+/* 
+    Schimbari pentru formularul de feedback
+*/
+
+#formular {
+    margin: 92px auto;
+    max-width: 880px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.2);
+}
+
+#formular .form {
+    margin: 42px;
+    box-sizing: border-box;
+}
+
+/* 
+    Schimbari pentru footer
+*/
+
+.footer {
+    background: #263238;
+}
+
+.footer img {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 32px 12px;
+}
+
+.footer p {
+    color: #FFFFFF;
+    margin: 16px 0;
+}
+
+/* 
+    Schimbari pop-up de cumparare teme
+*/
+
+.modal-title {
+    margin-left: 16px;
+}
+
+.modal-header, .modal-footer {
+    background: #92E3A9;
+    font-weight: 700;
+}
+
+.modal-header img {
+    padding: 0;
+}
+
+#subjects, #title {
+    margin-top: 16px;
+}
+
+select:invalid, select option[value=""] {
+  color: #999999;
+}
+
+select, select option {
+  color: #000000;
+}
+
+/* 
+    Centrarea butonului de incarcare anunt
+*/
+
+#submitBuyDiv {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#submitBuy {
+    min-width: 60%;
+}
+
+/* 
+    Schimbari pentru lista de anunturi deja puse
+*/
+
+#buyContainer {
+    background-color: white;
+}
+
+#buyList {
+    list-style-type: none;
+    margin:  0;
+    padding-left: 18px;
+    width: 100%;
+}
+
+#buyList li h5:nth-child(2) {
+    color:  #92E3A9;
+    margin-bottom: 16px;
+}
+
+#buyList li h5{
+    margin: 0;
+}
+
+#buyList h5 {
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.deleteEntry {
+    height: 40px;
+    margin-left: 12px;
+    background: none;
+    color: red;
+    border: none;
+    transition: all 0.3s;
+}
+
+.deleteEntry:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.deleteEntry:focus {
+    outline: none;
+}
+
+/* 
+    Setari pentru diferitele marimi de ecran
+*/
+
+@media screen and (max-width: 992px) {
+    #section1 h1 {
+        text-align: center;
+    }
+
+    #section1 p {
+        text-align: center;
+    }
+
+    #section1 .btn {
+        width: 100%;
+    }
+
+    .submitBtn {
+        text-align: center;
+    }
+
+    #formular {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
