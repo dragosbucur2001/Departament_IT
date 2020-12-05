@@ -7,7 +7,7 @@ Pagina este responsive, utilizatorul poate sa puna mai multe anunturi pentru tem
 Datele nu persista la refresh. Datele, materiile si anunturile, sunt stocate in doua siruri din fisierul app.js.  
 
 Folderul Dep_IT_Server contine resursele si partea de backend necesare rularii siteului. Backendul este scris in Node.js, in fisierul server.js. 
-Am folosit AJAX pentru updata pagina in diferite momente, cand utilizatorul adauga un anunt sau cand sterge unul, ca utilizatorul sa nu fie nevoit sa reincarce intreaga pagina, doar partile necesare. 
+Am folosit AJAX (Am dat de el joi noapte, cand incercam sa updatez lista de anunturi fara sa dau refresh al pagina, am invatat cum sa il folosesc joi, deci probabil nu este cel mai eficient folosit) pentru updata pagina in diferite momente, cand utilizatorul adauga un anunt sau cand sterge unul, ca utilizatorul sa nu fie nevoit sa reincarce intreaga pagina, doar partile necesare. 
 De asemenea, formularul, dupa ce este completat, este trimis la adresa de gmail "testdepartament@gmail.com" cu parola "Test!234". Datele persista la refresh, dar se reseteaza la repornirea serverului, nu am reusit sa implementez o baza de date in timp util.  
 
 URL pentru pagina dupa pornirea serverului va fi: "localhost:3000/"
